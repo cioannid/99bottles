@@ -1,6 +1,7 @@
 require 'minitest/autorun'
 require 'minitest/pride'
 require_relative '../lib/bottles'
+require_relative '../lib/bottle_number'
 
 class BottlesTest < Minitest::Test
   def test_the_first_verse
